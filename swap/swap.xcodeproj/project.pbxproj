@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A12D62AA292AC8A500239990 /* swapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12D62A9292AC8A500239990 /* swapApp.swift */; };
+		A12D62AC292AC8A500239990 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12D62AB292AC8A500239990 /* ContentView.swift */; };
+		A12D62AE292AC8A700239990 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A12D62AD292AC8A700239990 /* Assets.xcassets */; };
+		A12D62B2292AC8A700239990 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A12D62B1292AC8A700239990 /* Preview Assets.xcassets */; };
+		A12D62BC292AC8A700239990 /* swapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12D62BB292AC8A700239990 /* swapTests.swift */; };
+		A12D62C6292AC8A700239990 /* swapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12D62C5292AC8A700239990 /* swapUITests.swift */; };
+		A12D62C8292AC8A700239990 /* swapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12D62C7292AC8A700239990 /* swapUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A12D62B8292AC8A700239990 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A12D629E292AC8A500239990 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A12D62A5292AC8A500239990;
+			remoteInfo = swap;
+		};
+		A12D62C2292AC8A700239990 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A12D629E292AC8A500239990 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A12D62A5292AC8A500239990;
+			remoteInfo = swap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A12D62A6292AC8A500239990 /* swap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12D62A9292AC8A500239990 /* swapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swapApp.swift; sourceTree = "<group>"; };
+		A12D62AB292AC8A500239990 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A12D62AD292AC8A700239990 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A12D62AF292AC8A700239990 /* swap.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = swap.entitlements; sourceTree = "<group>"; };
+		A12D62B1292AC8A700239990 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A12D62B7292AC8A700239990 /* swapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12D62BB292AC8A700239990 /* swapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swapTests.swift; sourceTree = "<group>"; };
+		A12D62C1292AC8A700239990 /* swapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12D62C5292AC8A700239990 /* swapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swapUITests.swift; sourceTree = "<group>"; };
+		A12D62C7292AC8A700239990 /* swapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A12D62A3292AC8A500239990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A12D62B4292AC8A700239990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A12D62BE292AC8A700239990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A12D629D292AC8A500239990 = {
+			isa = PBXGroup;
+			children = (
+				A12D62A8292AC8A500239990 /* swap */,
+				A12D62BA292AC8A700239990 /* swapTests */,
+				A12D62C4292AC8A700239990 /* swapUITests */,
+				A12D62A7292AC8A500239990 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A12D62A7292AC8A500239990 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A12D62A6292AC8A500239990 /* swap.app */,
+				A12D62B7292AC8A700239990 /* swapTests.xctest */,
+				A12D62C1292AC8A700239990 /* swapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A12D62A8292AC8A500239990 /* swap */ = {
+			isa = PBXGroup;
+			children = (
+				A12D62A9292AC8A500239990 /* swapApp.swift */,
+				A12D62AB292AC8A500239990 /* ContentView.swift */,
+				A12D62AD292AC8A700239990 /* Assets.xcassets */,
+				A12D62AF292AC8A700239990 /* swap.entitlements */,
+				A12D62B0292AC8A700239990 /* Preview Content */,
+			);
+			path = swap;
+			sourceTree = "<group>";
+		};
+		A12D62B0292AC8A700239990 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A12D62B1292AC8A700239990 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A12D62BA292AC8A700239990 /* swapTests */ = {
+			isa = PBXGroup;
+			children = (
+				A12D62BB292AC8A700239990 /* swapTests.swift */,
+			);
+			path = swapTests;
+			sourceTree = "<group>";
+		};
+		A12D62C4292AC8A700239990 /* swapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A12D62C5292AC8A700239990 /* swapUITests.swift */,
+				A12D62C7292AC8A700239990 /* swapUITestsLaunchTests.swift */,
+			);
+			path = swapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A12D62A5292AC8A500239990 /* swap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A12D62CB292AC8A700239990 /* Build configuration list for PBXNativeTarget "swap" */;
+			buildPhases = (
+				A12D62A2292AC8A500239990 /* Sources */,
+				A12D62A3292AC8A500239990 /* Frameworks */,
+				A12D62A4292AC8A500239990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swap;
+			productName = swap;
+			productReference = A12D62A6292AC8A500239990 /* swap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A12D62B6292AC8A700239990 /* swapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A12D62CE292AC8A700239990 /* Build configuration list for PBXNativeTarget "swapTests" */;
+			buildPhases = (
+				A12D62B3292AC8A700239990 /* Sources */,
+				A12D62B4292AC8A700239990 /* Frameworks */,
+				A12D62B5292AC8A700239990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A12D62B9292AC8A700239990 /* PBXTargetDependency */,
+			);
+			name = swapTests;
+			productName = swapTests;
+			productReference = A12D62B7292AC8A700239990 /* swapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A12D62C0292AC8A700239990 /* swapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A12D62D1292AC8A700239990 /* Build configuration list for PBXNativeTarget "swapUITests" */;
+			buildPhases = (
+				A12D62BD292AC8A700239990 /* Sources */,
+				A12D62BE292AC8A700239990 /* Frameworks */,
+				A12D62BF292AC8A700239990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A12D62C3292AC8A700239990 /* PBXTargetDependency */,
+			);
+			name = swapUITests;
+			productName = swapUITests;
+			productReference = A12D62C1292AC8A700239990 /* swapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A12D629E292AC8A500239990 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					A12D62A5292AC8A500239990 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					A12D62B6292AC8A700239990 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = A12D62A5292AC8A500239990;
+					};
+					A12D62C0292AC8A700239990 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = A12D62A5292AC8A500239990;
+					};
+				};
+			};
+			buildConfigurationList = A12D62A1292AC8A500239990 /* Build configuration list for PBXProject "swap" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A12D629D292AC8A500239990;
+			productRefGroup = A12D62A7292AC8A500239990 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A12D62A5292AC8A500239990 /* swap */,
+				A12D62B6292AC8A700239990 /* swapTests */,
+				A12D62C0292AC8A700239990 /* swapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A12D62A4292AC8A500239990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12D62B2292AC8A700239990 /* Preview Assets.xcassets in Resources */,
+				A12D62AE292AC8A700239990 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A12D62B5292AC8A700239990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A12D62BF292AC8A700239990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A12D62A2292AC8A500239990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12D62AC292AC8A500239990 /* ContentView.swift in Sources */,
+				A12D62AA292AC8A500239990 /* swapApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A12D62B3292AC8A700239990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12D62BC292AC8A700239990 /* swapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A12D62BD292AC8A700239990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12D62C6292AC8A700239990 /* swapUITests.swift in Sources */,
+				A12D62C8292AC8A700239990 /* swapUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A12D62B9292AC8A700239990 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A12D62A5292AC8A500239990 /* swap */;
+			targetProxy = A12D62B8292AC8A700239990 /* PBXContainerItemProxy */;
+		};
+		A12D62C3292AC8A700239990 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A12D62A5292AC8A500239990 /* swap */;
+			targetProxy = A12D62C2292AC8A700239990 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A12D62C9292AC8A700239990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A12D62CA292AC8A700239990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A12D62CC292AC8A700239990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = swap/swap.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swap/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wicdev.swap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A12D62CD292AC8A700239990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = swap/swap.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swap/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wicdev.swap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A12D62CF292AC8A700239990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wicdev.swapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swap.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/swap";
+			};
+			name = Debug;
+		};
+		A12D62D0292AC8A700239990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wicdev.swapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swap.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/swap";
+			};
+			name = Release;
+		};
+		A12D62D2292AC8A700239990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wicdev.swapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = swap;
+			};
+			name = Debug;
+		};
+		A12D62D3292AC8A700239990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wicdev.swapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = swap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A12D62A1292AC8A500239990 /* Build configuration list for PBXProject "swap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A12D62C9292AC8A700239990 /* Debug */,
+				A12D62CA292AC8A700239990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A12D62CB292AC8A700239990 /* Build configuration list for PBXNativeTarget "swap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A12D62CC292AC8A700239990 /* Debug */,
+				A12D62CD292AC8A700239990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A12D62CE292AC8A700239990 /* Build configuration list for PBXNativeTarget "swapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A12D62CF292AC8A700239990 /* Debug */,
+				A12D62D0292AC8A700239990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A12D62D1292AC8A700239990 /* Build configuration list for PBXNativeTarget "swapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A12D62D2292AC8A700239990 /* Debug */,
+				A12D62D3292AC8A700239990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A12D629E292AC8A500239990 /* Project object */;
+}
