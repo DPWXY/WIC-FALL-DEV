@@ -14,6 +14,8 @@
 		A12D62BC292AC8A700239990 /* swapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12D62BB292AC8A700239990 /* swapTests.swift */; };
 		A12D62C6292AC8A700239990 /* swapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12D62C5292AC8A700239990 /* swapUITests.swift */; };
 		A12D62C8292AC8A700239990 /* swapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12D62C7292AC8A700239990 /* swapUITestsLaunchTests.swift */; };
+		A1543EB4292AF63600BCDB42 /* Bookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1543EB3292AF63600BCDB42 /* Bookmark.swift */; };
+		A1543EEE292B3A8100BCDB42 /* BookmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1543EED292B3A8100BCDB42 /* BookmarkDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		A12D62C1292AC8A700239990 /* swapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A12D62C5292AC8A700239990 /* swapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swapUITests.swift; sourceTree = "<group>"; };
 		A12D62C7292AC8A700239990 /* swapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A1543EB3292AF63600BCDB42 /* Bookmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookmark.swift; sourceTree = "<group>"; };
+		A1543EED292B3A8100BCDB42 /* BookmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				A12D62A9292AC8A500239990 /* swapApp.swift */,
 				A12D62AB292AC8A500239990 /* ContentView.swift */,
+				A1543EB3292AF63600BCDB42 /* Bookmark.swift */,
+				A1543EED292B3A8100BCDB42 /* BookmarkDetail.swift */,
 				A12D62AD292AC8A700239990 /* Assets.xcassets */,
 				A12D62AF292AC8A700239990 /* swap.entitlements */,
 				A12D62B0292AC8A700239990 /* Preview Content */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1543EEE292B3A8100BCDB42 /* BookmarkDetail.swift in Sources */,
 				A12D62AC292AC8A500239990 /* ContentView.swift in Sources */,
 				A12D62AA292AC8A500239990 /* swapApp.swift in Sources */,
+				A1543EB4292AF63600BCDB42 /* Bookmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,10 +443,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = wicdev.swap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -471,10 +481,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = wicdev.swap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
